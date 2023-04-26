@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PanelRoutes from './components/Bars/PanelRoutes'
+import Layout from './components/Layout'
+import { BrowserRouter} from 'react-router-dom'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Layout>
+        <PanelRoutes />
+      </Layout>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
