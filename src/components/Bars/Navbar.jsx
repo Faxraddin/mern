@@ -11,9 +11,9 @@ export default function Navbar(){
                         <h2 style={{fontSize:'1.4vw'}}>Logo</h2>
                         <div>
                             <ul style={{display:'flex',listStyle:'none',gap:'3vw',alignItems:'center',fontSize:'1.3vw'}}>
-                                <Link to={'/'}>Home Page</Link>
-                                <Link to={'/oppur'}>Opportunities</Link>
-                                <Link to={'/about'}>About</Link>
+                                <Link style={{textDecoration:'none'}} to={'/'}>Home Page</Link>
+                                <Link style={{textDecoration:'none'}} to={'/oppur'}>Opportunities</Link>
+                                <Link style={{textDecoration:'none'}} to={'/about'}>About</Link>
                             </ul>
                         </div>
                     </div>
